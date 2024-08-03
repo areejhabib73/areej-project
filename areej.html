@@ -1,93 +1,79 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {
-      background-color: powderwhite;
-    }
-
-    h1 {
-      color: white;
-    }
-
-    p {
-      color: brown;
-    }
-  </style>
-
-  <meta charset="utf=8">
-  <meta name="description" content="areej deisgn">
-  <title>Areej| web Deisgn </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Areej Design">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Areej | Web Design</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<font color="purple" size="3">
 
-  <body bgcolor="gray">
+<body>
+
     <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Areej</span> Web Design</h1>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Areej</span> Web Design</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </nav>
         </div>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-        </ul>
     </header>
-    <hr>
-    <h4><i>web deisgn</i></h4>
-</font>
-<hr>
-<font color="white" size="3">
-  <h4>Areej Web Design</h4>
-  <hr>
-  <h4 style="border:4px solid DodgerBlue;">
-    <B>The Name:</B>Areej Motasim <br>
-    <B>The University:</B></mark> Neelain University<br>
-    I study at the Faculty of Computer Science and Technology Level 3<i> <B>( Information Technology Section)</B></i>.
-</font>
-</h4>
-<br>
-</article>
-<font color="yellow" size="3">
-  <b><ins>sections:</ins></b><br>
-  <ol>
-    <ol type="1">
-      <h5>
-        <li>Computer Science</li>
-        <li>Information Technology</li>
-        <li>Software Engineering </li>
-        <li> Accouting information systems</li>
-        <li>Library information systems</li>
-        <li>information systems</li>
-      </h5>
-    </ol>
-    <font color="white" size="3">
-      <div class="container">
-        <hr>
-        <form>
-          <h3>Subscribe to the educational platform</h3>
 
-          <input type="email" placeholder="Enter Email..." required>
-          <button type="submit" class="button_1">Subscribe</button> <br><br>
-          <I><B>Or fill out the following data:</B></I> <br>
-          <label>user name</label>
-          <input type="text"> <br>
-          <label>phone number</label>
-          <input type="number"><br>
-          <lable for="Date.number">Date:</lable>
-          <input type="date">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-      </div>
-    </font>
-    <br>
+    <main>
+        <section class="introduction">
+            <h4><i>Web Design</i></h4>
+            <h4>Areej Web Design</h4>
+            <hr>
+            <div class="info-box">
+                <h4 style="border: 4px solid DodgerBlue;">
+                    <b>The Name:</b> Areej Motasim<br>
+                    <b>The University:</b> Neelain University<br>
+                    I study at the Faculty of Computer Science and Technology Level 3
+                    <i><b>(Information Technology Section)</b></i>.
+                </h4>
+            </div>
+        </section>
+
+        <section class="sections">
+            <h4>Sections:</h4>
+            <ol>
+                <li>Computer Science</li>
+                <li>Information Technology</li>
+                <li>Software Engineering</li>
+                <li>Accounting Information Systems</li>
+                <li>Library Information Systems</li>
+                <li>Information Systems</li>
+            </ol>
+        </section>
+
+        <section class="subscribe">
+            <h3>Subscribe to the Educational Platform</h3>
+            <form>
+                <input type="email" placeholder="Enter Email..." required>
+                <button type="submit" class="button_1">Subscribe</button><br><br>
+                <i><b>Or fill out the following data:</b></i><br>
+                <label for="username">User Name:</label>
+                <input type="text" id="username"><br>
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone"><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date"><br>
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
     <footer>
-      <font color="purple" size="3">
-        <I>Areej Web Deisgn, it; 2024</I>
-
-      </font>
+        <i>Areej Web Design, 2024</i>
     </footer>
-    </body>
 
-    </html>
+</body>
+
+</html>
